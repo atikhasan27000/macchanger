@@ -20,7 +20,7 @@ This Python script allows you to change the IP and MAC addresses of your network
 
     ```sh
     git clone https://github.com/yourusername/ip-mac-changer.git
-    cd ip-mac-changer
+    cd macchanger
     ```
 
 2. Ensure you have the required dependencies installed.
@@ -28,7 +28,7 @@ This Python script allows you to change the IP and MAC addresses of your network
 3. Run the script:
 
     ```sh
-    python change_ip_mac.py
+    python3 macchanger.py
     ```
 
     You will be prompted to enter the IP address and optionally a custom MAC address. If you leave the MAC address blank, a random MAC address will be generated.
